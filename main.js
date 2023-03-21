@@ -4,7 +4,7 @@ objects=[];
 function setup() {
     canvas=createCanvas(640,420)
     canvas.center()
-    object_detector = ml5.objectDetector('cocossd' , modelLoaded)
+    objectDetector = ml5.objectDetector('cocossd' , modelLoaded)
     document.getElementById("status").innerHTML = "Detecting Objects"
 }
 
