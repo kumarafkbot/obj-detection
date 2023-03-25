@@ -1,3 +1,4 @@
+
 img="";
 status = "";
 objects=[];
@@ -18,9 +19,10 @@ function modelLoaded() {
 function gotresults(error , results) {
     if (error) {
         console.log(error)
-        objects = results;
+        
     } else {
-      console.log(results)  
+        console.log(results)  
+        objects = results;
     }
 }
 
