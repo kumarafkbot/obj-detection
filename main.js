@@ -41,7 +41,7 @@ if(status != "")
     
       fill("#FF0000");
       percent = floor(objects[i].confidence * 100);
-      text(object[i].label + " " + percent + "%", objects[i].x , objects[i].y);
+      text(objects[i].label + " " + percent + "%", objects[i].x , objects[i].y);
       noFill();
       stroke("#FF0000");
     rect(objects[i].x, objects[i].y, objects[i].width,objects[i].height); }
